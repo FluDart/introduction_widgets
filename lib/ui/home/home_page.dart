@@ -10,21 +10,29 @@ class HomePage extends StatelessWidget {
       floatingActionButton: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          FloatingActionButton(onPressed: null),
+          FloatingActionButton(onPressed: () {
+              print('onPressed');
+            },),
           SizedBox(
             width: 10,
           ),
-          FloatingActionButton(onPressed: null),
+          FloatingActionButton(onPressed: () {
+              print('onPressed');
+            },),
           SizedBox(
             width: 10,
           ),
-          FloatingActionButton(onPressed: null),
+          FloatingActionButton(onPressed: () {
+              print('onPressed');
+            },),
         ],
       ),
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: Text('Introduction to Widgets'),
-        leading: Icon(Icons.audiotrack),
+        leading: IconButton(icon: Icon(Icons.audiotrack), onPressed: () {
+              print('onPressed');
+            },)
       ),
       body: Column(
         //crossAxisAlignment: CrossAxisAlignment.center,
