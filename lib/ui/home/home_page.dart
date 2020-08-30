@@ -58,7 +58,6 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: FlutterLogo(
               size: 50,
-              colors: Colors.red,
             ),
             title: Text('Flutter Course Live'),
             subtitle: Text('@cerberodev'),
