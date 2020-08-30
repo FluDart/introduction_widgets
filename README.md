@@ -1,6 +1,6 @@
 # introduction_widgets
 
-A new Flutter project.
+A new example Flutter project.
 
 ## Getting Started
 
